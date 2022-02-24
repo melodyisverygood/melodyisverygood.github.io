@@ -1,0 +1,41 @@
+
+.primary{
+    color: brown;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto ;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.intro-block .row{
+    align-items: center;
+}
+
+.avatar{
+    width: 20%;
+}
+
+.avatar img{
+    width: 95%;
+    border-radius: 50%;
+
+}
+.contain{
+    width: 80%;
+}
+
+.contact-me ul{
+    list-style: none;
+    padding: 0;
+}
+
+.contact-me>ul li{
+    display: inline;
+    padding: 0 5px;
+}
